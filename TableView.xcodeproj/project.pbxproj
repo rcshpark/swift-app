@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		7E0113202850CF1E009A9C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E01131F2850CF1E009A9C60 /* AppDelegate.swift */; };
 		7E0113222850CF1E009A9C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113212850CF1E009A9C60 /* SceneDelegate.swift */; };
-		7E0113242850CF1E009A9C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113232850CF1E009A9C60 /* ViewController.swift */; };
 		7E0113272850CF1E009A9C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0113252850CF1E009A9C60 /* Main.storyboard */; };
 		7E0113292850CF1E009A9C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0113282850CF1E009A9C60 /* Assets.xcassets */; };
 		7E01132C2850CF1E009A9C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E01132A2850CF1E009A9C60 /* LaunchScreen.storyboard */; };
 		7E0113372850CF1E009A9C60 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113362850CF1E009A9C60 /* TableViewTests.swift */; };
 		7E0113412850CF1F009A9C60 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113402850CF1F009A9C60 /* TableViewUITests.swift */; };
 		7E0113432850CF1F009A9C60 /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113422850CF1F009A9C60 /* TableViewUITestsLaunchTests.swift */; };
+		7E0113502850D100009A9C60 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E01134F2850D100009A9C60 /* TableViewController.swift */; };
+		7E0113522850D146009A9C60 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113512850D146009A9C60 /* AddViewController.swift */; };
+		7E0113542850D155009A9C60 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0113532850D155009A9C60 /* DetailViewController.swift */; };
+		7E0113582850D205009A9C60 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0113552850D205009A9C60 /* cart.png */; };
+		7E0113592850D205009A9C60 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0113562850D205009A9C60 /* clock.png */; };
+		7E01135A2850D205009A9C60 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0113572850D205009A9C60 /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		7E01131C2850CF1E009A9C60 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E01131F2850CF1E009A9C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E0113212850CF1E009A9C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E0113232850CF1E009A9C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E0113262850CF1E009A9C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E0113282850CF1E009A9C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E01132B2850CF1E009A9C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		7E01133C2850CF1F009A9C60 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0113402850CF1F009A9C60 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		7E0113422850CF1F009A9C60 /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E01134F2850D100009A9C60 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7E0113512850D146009A9C60 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		7E0113532850D155009A9C60 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7E0113552850D205009A9C60 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = "../../../../../Downloads/12장/본문실습파일/cart.png"; sourceTree = "<group>"; };
+		7E0113562850D205009A9C60 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = "../../../../../Downloads/12장/본문실습파일/clock.png"; sourceTree = "<group>"; };
+		7E0113572850D205009A9C60 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pencil.png; path = "../../../../../Downloads/12장/본문실습파일/pencil.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 		7E01131E2850CF1E009A9C60 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				7E0113552850D205009A9C60 /* cart.png */,
+				7E0113562850D205009A9C60 /* clock.png */,
+				7E0113572850D205009A9C60 /* pencil.png */,
 				7E01131F2850CF1E009A9C60 /* AppDelegate.swift */,
 				7E0113212850CF1E009A9C60 /* SceneDelegate.swift */,
-				7E0113232850CF1E009A9C60 /* ViewController.swift */,
 				7E0113252850CF1E009A9C60 /* Main.storyboard */,
+				7E0113512850D146009A9C60 /* AddViewController.swift */,
+				7E0113532850D155009A9C60 /* DetailViewController.swift */,
+				7E01134F2850D100009A9C60 /* TableViewController.swift */,
 				7E0113282850CF1E009A9C60 /* Assets.xcassets */,
 				7E01132A2850CF1E009A9C60 /* LaunchScreen.storyboard */,
 				7E01132D2850CF1E009A9C60 /* Info.plist */,
@@ -231,7 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E01135A2850D205009A9C60 /* pencil.png in Resources */,
 				7E01132C2850CF1E009A9C60 /* LaunchScreen.storyboard in Resources */,
+				7E0113592850D205009A9C60 /* clock.png in Resources */,
+				7E0113582850D205009A9C60 /* cart.png in Resources */,
 				7E0113292850CF1E009A9C60 /* Assets.xcassets in Resources */,
 				7E0113272850CF1E009A9C60 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0113242850CF1E009A9C60 /* ViewController.swift in Sources */,
 				7E0113202850CF1E009A9C60 /* AppDelegate.swift in Sources */,
+				7E0113502850D100009A9C60 /* TableViewController.swift in Sources */,
+				7E0113542850D155009A9C60 /* DetailViewController.swift in Sources */,
+				7E0113522850D146009A9C60 /* AddViewController.swift in Sources */,
 				7E0113222850CF1E009A9C60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
