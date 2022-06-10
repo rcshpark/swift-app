@@ -16,6 +16,12 @@
 		7EA75174285201C70004B458 /* MoviePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA75173285201C70004B458 /* MoviePlayerTests.swift */; };
 		7EA7517E285201C70004B458 /* MoviePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7517D285201C70004B458 /* MoviePlayerUITests.swift */; };
 		7EA75180285201C70004B458 /* MoviePlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7517F285201C70004B458 /* MoviePlayerUITestsLaunchTests.swift */; };
+		7EA7518F285202130004B458 /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7518C285202130004B458 /* FastTyping.jpg */; };
+		7EA75190285202130004B458 /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7518D285202130004B458 /* FastTyping.mp4 */; };
+		7EA75191285202130004B458 /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7518E285202130004B458 /* Fireworks.jpg */; };
+		7EA751932853304B0004B458 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EA751922853304B0004B458 /* Mountaineering.jpg */; };
+		7EA75196285330640004B458 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EA75194285330640004B458 /* Seascape.jpg */; };
+		7EA75197285330640004B458 /* Mountaineering.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7EA75195285330640004B458 /* Mountaineering.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		7EA75179285201C70004B458 /* MoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA7517D285201C70004B458 /* MoviePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITests.swift; sourceTree = "<group>"; };
 		7EA7517F285201C70004B458 /* MoviePlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EA7518C285202130004B458 /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FastTyping.jpg; path = "../../../../../Downloads/14장/본문실습미디어/FastTyping.jpg"; sourceTree = "<group>"; };
+		7EA7518D285202130004B458 /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = FastTyping.mp4; path = "../../../../../Downloads/14장/본문실습미디어/FastTyping.mp4"; sourceTree = "<group>"; };
+		7EA7518E285202130004B458 /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fireworks.jpg; path = "../../../../../Downloads/14장/본문실습미디어/Fireworks.jpg"; sourceTree = "<group>"; };
+		7EA751922853304B0004B458 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mountaineering.jpg; path = "../../../../../Downloads/14장/미션미디어/Mountaineering.jpg"; sourceTree = "<group>"; };
+		7EA75194285330640004B458 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Seascape.jpg; path = "../../../../../Downloads/14장/미션미디어/Seascape.jpg"; sourceTree = "<group>"; };
+		7EA75195285330640004B458 /* Mountaineering.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Mountaineering.mov; path = "../../../../../Downloads/14장/미션미디어/Mountaineering.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 		7EA7515B285201C60004B458 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				7EA75195285330640004B458 /* Mountaineering.mov */,
+				7EA75194285330640004B458 /* Seascape.jpg */,
+				7EA7518C285202130004B458 /* FastTyping.jpg */,
+				7EA7518D285202130004B458 /* FastTyping.mp4 */,
+				7EA7518E285202130004B458 /* Fireworks.jpg */,
+				7EA751922853304B0004B458 /* Mountaineering.jpg */,
 				7EA7515C285201C60004B458 /* AppDelegate.swift */,
 				7EA7515E285201C60004B458 /* SceneDelegate.swift */,
 				7EA75160285201C60004B458 /* ViewController.swift */,
@@ -231,8 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA75196285330640004B458 /* Seascape.jpg in Resources */,
 				7EA75169285201C70004B458 /* LaunchScreen.storyboard in Resources */,
 				7EA75166285201C70004B458 /* Assets.xcassets in Resources */,
+				7EA75197285330640004B458 /* Mountaineering.mov in Resources */,
+				7EA75190285202130004B458 /* FastTyping.mp4 in Resources */,
+				7EA751932853304B0004B458 /* Mountaineering.jpg in Resources */,
+				7EA7518F285202130004B458 /* FastTyping.jpg in Resources */,
+				7EA75191285202130004B458 /* Fireworks.jpg in Resources */,
 				7EA75164285201C60004B458 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
